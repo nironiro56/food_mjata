@@ -1,0 +1,125 @@
+.bx-pagination {
+    margin: 10px 0;
+}
+
+.bx-pagination .bx-pagination-container {
+    text-align: center;
+    position: relative;
+}
+
+.bx-pagination .bx-pagination-container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.bx-pagination .bx-pagination-container ul li {
+    display: inline-block;
+    margin: 0 5px 15px 5px;
+    vertical-align: middle;
+}
+
+.bx-pagination .bx-pagination-container ul li span {
+    -webkit-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    -moz-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    -ms-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    -o-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    background: #fff;
+    padding: 0 8px;
+    display: block;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #ababab;
+    border-radius: 100px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 3px 66px rgba(0, 0, 0, .16);
+}
+
+.bx-pagination .bx-pagination-container ul li a {
+    text-decoration: none;
+    display: block;
+    border-radius: 100px;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #ababab;
+    vertical-align: middle;
+}
+
+.bx-pagination .bx-pagination-container ul li a:hover span {
+    background: #dedede;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-active span {
+    background: #006300;
+    color: #fff;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a span {
+    background: #fff;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    color: #006300;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-all span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span {
+    color: #aab1b4;
+    background: #fff;
+    border: 0;
+    padding: 0;
+    font-size: 38px;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span i {
+    padding-right: 5px;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span i {
+    padding-left: 5px;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-all span i,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span i,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span i {
+    line-height: 50px;
+    width: 50px;
+}
+
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a:hover span {
+    background: #dedede;
+}
+
+/*color schemes*/
+.bx-pagination.bx-green .bx-pagination-container ul li.bx-active span {
+    background: #3bc915;
+    color: #fff;
+}
+
+.bx-pagination.bx-yellow .bx-pagination-container ul li.bx-active span {
+    background: #F9A91D;
+    color: #fff;
+}
+
+.bx-pagination.bx-red .bx-pagination-container ul li.bx-active span {
+    background: #E22B2B;
+    color: #fff;
+}
+
+.bx-pagination.bx-blue .bx-pagination-container ul li.bx-active span {
+    background: #0083d1;
+    color: #fff;
+}

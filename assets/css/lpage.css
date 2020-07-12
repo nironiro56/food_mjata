@@ -1,0 +1,300 @@
+
+.header_main {
+	    border-bottom: 3px solid #006300;
+}
+
+ .offer_lp {
+	margin-bottom: 50px;
+}
+
+.offer_secondary_feed {
+	border: 1px solid #ddd;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer_secondary_feed  .feed_form {
+    width: calc(100% - 10px);
+    padding: 15px 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #006300;
+    /*box-shadow: 0 3px 26px rgba(0,0,0,.16);*/
+}
+
+.title_feed {
+	font-size:17px;
+	font-weight: bold;
+	color: #006300;
+}
+
+.feature {
+	margin-bottom: 60px;
+}
+
+.feed_form_text {
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feed_name {
+	margin-bottom: 15px;
+}
+
+div.form_input.feed {
+	margin-top: 20px;
+}
+
+.button_block {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+div.form_input--double.first:nth-child(odd) {
+    margin-right: 10px;
+}
+
+div.form_input.feed:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.order {
+	white-space: normal;
+	padding: 8px 10px;
+}
+
+.consultation {
+	white-space: normal;
+	padding: 8px 10px;
+	background: #006300;
+}
+
+.form {
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+h1.lp_h1 {
+	width: 42%;
+	font-size:25px;
+	font-weight: bold;
+	color: white;
+	background-color: #006300;
+	margin-bottom: 40px;
+	padding: 5px 25px 5px 25px;
+	text-align: center;
+}
+
+@media all and (max-width:1024px) {
+	h1.lp_h1 {
+		width: auto;
+	}
+}
+
+.slider_text {
+    width: 55%;
+    position: absolute;
+    left: 5%;
+    top: 60px;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 22px;
+    color: #006300;
+    text-align: left;
+}
+
+.pagination_items {
+	display: flex;
+    justify-content: center;
+    margin: 30px 0 60px 0;
+}
+
+.pagination_items a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin-left: 10px;
+  -webkit-box-shadow: 15px 19px 114px -32px rgba(0,0,0,0.75)
+  -moz-box-shadow: 15px 19px 114px -32px rgba(0,0,0,0.75);
+  box-shadow: 15px 19px 114px -32px rgba(0,0,0,0.75);
+
+}
+
+
+.pagination_items a.active {
+  background-color: #006300;
+  color: white;
+  border-radius: 50%;
+}
+
+.pagination_items a.noactive {
+  background-color: white;
+  color: #aaa;
+  border-radius: 50%;
+}
+
+.pagination_items a:hover:not(.active) {
+	color: white;
+	background-color: #ddd;
+	border-radius: 50%;
+}
+
+.price_title {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.filter_box {
+    background-color: white;
+    background-size: 370px 235px;
+    background-position: center right 24px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+    -webkit-box-shadow: 15px 19px 114px -32px rgba(0,0,0,0.75)
+    -moz-box-shadow: 15px 19px 114px -32px rgba(0,0,0,0.75);
+    box-shadow: 15px 19px 114px -32px rgba(0,0,0,0.75);
+}
+
+.filter_image {
+    /* height: 240px; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.no_flex_title {
+	text-align: center;
+    flex-basis: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.select_style {
+	background: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 50px;
+	margin: 0 auto; /* выровняем по центру */
+	margin-top: 25px;
+	margin-bottom: 40px;
+	padding-bottom: 60px;
+	-webkit-box-shadow: -8px 57px 138px 10px rgba(0,0,0,0.23);
+	-moz-box-shadow: -8px 57px 138px 10px rgba(0,0,0,0.23);
+	box-shadow: -8px 57px 138px 10px rgba(0,0,0,0.23);
+}
+
+.form-check {
+	flex:1 1 auto;/* отнимем margin и скажем растягиваться */
+	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+	min-width:25%; /* мин. ширина блока, чтобы переносились на другой ряд */
+	padding:10px 50px; /* для красоты */
+}
+
+@media all and (max-width:991px) {
+	.select_style {
+		padding-left: 30px;
+	}
+	.form-check {
+		padding:10px 20px;
+	}
+}
+
+.no_flex_title_style {
+	text-align: center;
+    flex-basis: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.next {
+	display: flex;
+    justify-content: center;
+    width: 170px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.form-check-label {
+	color: #aaa;
+	font-weight: 400;
+}
+
+.button_filter {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+a.btn.angle {
+	background-color: #006300;
+	color: white;
+	padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+a.btn.tiny {
+	background-color: #ffb300;
+	color: white;
+	padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+a.btn.gray {
+	background-color: #F2F2F2;
+	color: black;
+	padding: 10px 30px;
+	border:1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+div.button_filter a {
+	margin-left: 15px;
+    margin-right: 15px;
+}
+
+@media all and (max-width:991px) {
+
+.button_filter {
+	justify-content: left;
+}
+	a.btn.angle {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+a.btn.tiny {
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+a.btn.gray {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+}

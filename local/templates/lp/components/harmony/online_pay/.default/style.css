@@ -1,0 +1,23 @@
+.s-online-pay-component {
+
+}
+
+.s-online-pay-component input.bad {
+    box-shadow: 0 0 2px red !important;
+    border-color: #a94442 !important;
+}
+.s-online-pay-component .badge-error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.s-online-pay-component .success-pay {
+    line-height: normal;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.s-online-pay-component button {
+    outline: 0 !important;
+}

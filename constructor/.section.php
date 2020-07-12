@@ -1,0 +1,4 @@
+<?
+$sSectionName = "Проектировщик";
+$arDirProperties = Array();
+?>

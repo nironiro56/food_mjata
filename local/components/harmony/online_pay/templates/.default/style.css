@@ -1,0 +1,52 @@
+.s-online-pay-component {
+    margin-bottom: 45px;
+}
+
+.s-online-pay-component input.bad {
+    box-shadow: 0 0 2px red !important;
+    border-color: #a94442 !important;
+}
+.s-online-pay-component .badge-error {
+    color: red;
+}
+.s-online-pay-component .pay-form-title {
+    font-size: 24pt;
+    color: #ed008c;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.s-online-pay-component .pay-form-description {
+    font-size: 16pt;
+    margin-bottom: 15px;
+    line-height: normal;
+}
+.s-online-pay-component .btn.form__btn {
+    background-color: #a24aa1;
+    color: #fff;
+    text-transform: uppercase;
+}
+.s-online-pay-component .btn.form__btn:hover {
+    background-color: #90438f;
+    color: #ffffff;
+}
+.s-online-pay-component .success-pay {
+    line-height: normal;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.s-online-pay-component .pay__information {
+    font-size: 15px;
+    line-height: 1.3;
+}
+.s-online-pay-component .pay_title_info_left {
+    font-size: 18px;
+    font-weight: 500;
+}
+.s-online-pay-component .information-bottom .pay-form-title {
+    padding-bottom: 0;
+}
+.s-online-pay-component .card-info .right {
+    padding-top: 10px;
+}
